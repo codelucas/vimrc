@@ -1,5 +1,7 @@
 # Lucas's Version of Amix's vimrc
 
+**Installation directions:**
+
 ```bash
     git clone https://github.com/codelucas/vimrc ~/.vim_runtime
     sh ~/.vim_runtime/install.sh
