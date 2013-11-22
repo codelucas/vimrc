@@ -139,7 +139,6 @@ syntax enable
 
 try
     colorscheme solarized
-    echo 'colorscheme solarized set succesfully'
 catch
     echo 'setting colorscheme solarized failed'
 endtry

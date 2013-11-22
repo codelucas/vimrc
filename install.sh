@@ -8,6 +8,10 @@ curl -Sso ~/.vim/autoload/pathogen.vim \
 # Download vim-solarized
 cd ~/.vim/bundle
 git clone git://github.com/altercation/vim-colors-solarized.git
+cp ~/.vim/bundle/
+
+mkdir ~/.vim/colors
+cp ~/.vim/bundle/vim-colors-solarized/colors/solarized.vim ~/.vim/colors/.
 
 cd ~/.vim_runtime
 cat ~/.vim_runtime/basic.vim > ~/.vimrc
