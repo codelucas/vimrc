@@ -3,6 +3,8 @@
 "       Amir Salihefendic
 "       http://amix.dk - amix@amix.dk
 "
+"       With minor edits & customizations by
+"       Lucas Ou-Yang - http://codelucas.com
 " Version: 
 "       5.0 - 29/05/12 15:43:36
 "
@@ -136,8 +138,10 @@ set foldcolumn=1
 syntax enable 
 
 try
-    colorscheme desert
+    colorscheme solarized
+    echo 'colorscheme solarized set succesfully'
 catch
+    echo 'setting colorscheme solarized failed'
 endtry
 
 set background=dark
