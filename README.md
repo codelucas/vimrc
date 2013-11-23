@@ -8,7 +8,7 @@
 ```
 
 **Note:** If you are using OSX and your colors are screwed up,
-it's due to some terminal configuration thing.
+it's due to some terminal configuration setting.
 
 Open up either of the `.terminal` theme files in the **osx-pallets** 
 folder provided and run it. Then open terminal preferences. 
