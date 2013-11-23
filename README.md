@@ -11,9 +11,9 @@
 it's due to some terminal configuration thing.
 
 Open up either of the `.terminal` theme files in the **osx-pallets** 
-afolder provided and run it. Then open terminal preferences. 
+folder provided and run it. Then open terminal preferences. 
 `Solarized Dark` should be a profile option. Select it and set as 
-default. Make sure terminals are declared as **xterm-256color**.
+default. Ensure that the terminals are declared as **xterm-256color**.
 
 I will add more changes later but for now the biggest reason
 this was forked was because I want `solarized dark` to be auto
