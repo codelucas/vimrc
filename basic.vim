@@ -48,6 +48,9 @@
 " Sets how many lines of history VIM has to remember
 set history=700
 
+" Enables line numbers
+set number
+
 " Enable filetype plugins
 filetype plugin on
 filetype indent on

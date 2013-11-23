@@ -7,6 +7,14 @@
     sh ~/.vim_runtime/install.sh
 ```
 
+**Note:** If you are using OSX and your colors are screwed up,
+it's due to some terminal configuration thing.
+
+Open up either of the `.terminal` theme files in the **xterm-256color** 
+afolder provided and run it. Then open terminal preferences. 
+`Solarized Dark` should be a profile option. Select it and set as 
+default. Make sure terminals are declared as **xterm-256color**.
+
 I will add more changes later but for now the biggest reason
 this was forked was because I want `solarized dark` to be auto
 installed without any hassle. 
