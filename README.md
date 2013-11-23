@@ -10,7 +10,7 @@
 **Note:** If you are using OSX and your colors are screwed up,
 it's due to some terminal configuration thing.
 
-Open up either of the `.terminal` theme files in the **xterm-256color** 
+Open up either of the `.terminal` theme files in the **osx-pallets** 
 afolder provided and run it. Then open terminal preferences. 
 `Solarized Dark` should be a profile option. Select it and set as 
 default. Make sure terminals are declared as **xterm-256color**.
@@ -24,5 +24,5 @@ basic setup was **amazing**.
 
 This version installs pathogen for the solarized theme.
 
-If anything still is broken, refer to [osx-solarized](https://github.com/altercation/solarized/tree/master/osx-terminal.app-colors-solarized) or 
+If anything still is broken, refer to [osx-solarized](https://github.com/tomislav/osx-terminal.app-colors-solarized) or 
 [amix's vim](https://github.com/amix/vimrc)
