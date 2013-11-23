@@ -24,4 +24,5 @@ basic setup was **amazing**.
 
 This version installs pathogen for the solarized theme.
 
-
+If anything still is broken, refer to [osx-solarized](https://github.com/altercation/solarized/tree/master/osx-terminal.app-colors-solarized) or 
+[amix's vim](https://github.com/amix/vimrc)
