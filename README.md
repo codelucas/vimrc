@@ -26,7 +26,10 @@ solving random CS puzzles, and blogging in markdown.
     sh ~/.vim_runtime/install.sh
 ```
 
-**Note:** If you are using OSX and your colors are screwed up,
+Note that the directory name `.vim_runtime` is critical.
+Please copy and paste the above two lines exactly as shown!
+
+If you are using OSX and your colors are screwed up,
 it's due to some terminal configuration setting.
 
 Open up either of the `.terminal` theme files in the **osx-pallets** 
