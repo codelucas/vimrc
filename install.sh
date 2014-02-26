@@ -1,5 +1,10 @@
 #!/bin/bash
 
+cwd=$(pwd)
+
+# Paste in our supertab (autocomplete) plugin
+cp ./plugin/supertab.vmb ~/.vim/plugin/supertab.vmb 
+
 # Install pathogen (recomended way to setup solarized)
 mkdir -p ~/.vim/autoload ~/.vim/bundle; \
 curl -Sso ~/.vim/autoload/pathogen.vim \
@@ -15,9 +20,6 @@ git clone https://github.com/scrooloose/syntastic.git
 mkdir ~/.vim/colors
 cp ~/.vim/bundle/vim-colors-solarized/colors/solarized.vim ~/.vim/colors/.
 
-cd ~/.vim_runtime
-cat ~/.vim_runtime/basic.vim > ~/.vimrc
+cd $cwd
+cat ./basic.vim > ~/.vimrc
 echo "Installed the Vim configuration successfully! Enjoy :-)"
-
-# Paste in our supertab (autocomplete) plugin
-cp ./plugin/supertab.vim ~/.vim/plugin/supertab.vim 

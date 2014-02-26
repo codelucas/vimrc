@@ -1,17 +1,16 @@
-# Lucas's Version of Amix's vimrc
+Lucas's Version of Amix's vimrc
+-------------------------------
 
-Philosophy
-----------
+**Philosophy**
+
 I want to create my own vim configuration which is 
 **beautiful**, **easy to use**, and **lightweight**.
 
-This setup is optimized for my personal use cases.
-
-I enjoy writing python modules, building webapps,  
+*This setup is optimized for my personal use cases.* I enjoy writing python modules, building webapps,  
 solving random CS puzzles, and blogging in markdown.
 
-Features
---------
+**Features**
+
 - Autocomplete on tab
 - Error checking for all major languages
 - Consistent 4-space indenting & tabbing
