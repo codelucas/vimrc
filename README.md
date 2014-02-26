@@ -1,5 +1,25 @@
 # Lucas's Version of Amix's vimrc
 
+Philosophy
+----------
+I want to create my own vim configuration which is 
+**beautiful**, **easy to use**, and **lightweight**.
+
+This setup is optimized for my personal use cases.
+
+I enjoy writing python modules, building webapps,  
+solving random CS puzzles, and blogging in markdown.
+
+Features
+--------
+- Autocomplete on tab
+- Error checking for all major languages
+- Consistent 4-space indenting & tabbing
+- Remembers & starts on previous line number
+- Spacing buffers at top and bottom of page
+- Autopanning search (screen moves to found matches)
+- Awesome solarized-blue theme
+
 **Installation directions:**
 
 ```bash
@@ -24,5 +44,8 @@ basic setup was **amazing**.
 
 This version installs pathogen for the solarized theme.
 
-If anything still is broken, refer to [osx-solarized](https://github.com/tomislav/osx-terminal.app-colors-solarized) or 
+If anything still is broken, refer to 
+[osx-solarized](https://github.com/tomislav/osx-terminal.app-colors-solarized) or 
 [amix's vim](https://github.com/amix/vimrc)
+
+Please do not hesitate to [contact](http://codelucas.com) me for help.
