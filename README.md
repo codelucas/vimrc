@@ -37,9 +37,9 @@ for whatever langauges you enjoy. For example, if you are like me
 and enjoy programming in javascript, python, and java:
 
 ```bash
-    sudo npm install -g jshint  # jshint is a syntax checker for js
-    sudo pip install flake8     # flake8 is a python syntax checker
-    sudo apt-get install default-jdk # javac of course synta checks java
+    sudo npm install -g jshint        # jshint is a syntax checker for js
+    sudo pip install flake8           # flake8 is a python syntax checker
+    sudo apt-get install default-jdk  # javac is a compiler for java (syntax checking implied!)
 ```
 
 Install pip and npm if they are not available with your
