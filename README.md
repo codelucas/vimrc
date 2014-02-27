@@ -32,6 +32,21 @@ Please copy and paste the above two lines exactly as shown!
 If you are using OSX and your colors are screwed up,
 it's due to some terminal configuration setting.
 
+Now we need to install various syntax checking modules
+for whatever langauges you enjoy. For example, if you are like me
+and enjoy programming in js, python, and java:
+
+```bash
+    sudo npm install -g jshint
+    sudo pip install flake8
+    sudo apt-get install default-jdk
+```
+
+Install pip and npm if they are not available with your
+respective package managers.
+
+`easy_install pip` and `sudo apt-get install npm` did it for me.
+
 Open up either of the `.terminal` theme files in the **osx-pallets** 
 folder provided and run it. Then open terminal preferences. 
 `Solarized Dark` should be a profile option. Select it and set as 
