@@ -34,18 +34,18 @@ it's due to some terminal configuration setting.
 
 Now we need to install various syntax checking modules
 for whatever langauges you enjoy. For example, if you are like me
-and enjoy programming in js, python, and java:
+and enjoy programming in javascript, python, and java:
 
 ```bash
-    sudo npm install -g jshint
-    sudo pip install flake8
-    sudo apt-get install default-jdk
+    sudo npm install -g jshint  # jshint is a syntax checker for js
+    sudo pip install flake8     # flake8 is a python syntax checker
+    sudo apt-get install default-jdk # javac of course synta checks java
 ```
 
 Install pip and npm if they are not available with your
 respective package managers.
 
-`easy_install pip` and `sudo apt-get install npm` did it for me.
+`easy_install pip` and `sudo apt-get install nodejs` did it for me.
 
 Open up either of the `.terminal` theme files in the **osx-pallets** 
 folder provided and run it. Then open terminal preferences. 
