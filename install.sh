@@ -2,10 +2,9 @@
 
 # Set up directory structure and install pathogen 
 # (recomended way to setup solarized)
-mkdir -p ~/.vim/autoload ~/.vim/bundle; \
-mkdir -p ~/.vim/doc ~/.vim/plugin; \
-curl -Sso ~/.vim/autoload/pathogen.vim \
-    https://raw.github.com/tpope/vim-pathogen/master/autoload/pathogen.vim
+mkdir -p ~/.vim/autoload ~/.vim/bundle;
+mkdir -p ~/.vim/doc ~/.vim/plugin;
+curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim;
 
 # Paste in our supertab (autocomplete) plugin
 cp ~/.vim_runtime/plugin/supertab.vim ~/.vim/plugin/.
