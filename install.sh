@@ -15,7 +15,10 @@ cd ~/.vim/bundle
 # Download vim-solarized
 git clone git://github.com/altercation/vim-colors-solarized.git
 
-# While we are in the bundle file, download syntastic
+# Download vim-gitgutter
+git clone git://github.com/airblade/vim-gitgutter.git
+
+# Download vim-syntastic
 git clone https://github.com/scrooloose/syntastic.git
 
 mkdir -p ~/.vim/colors

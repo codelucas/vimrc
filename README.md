@@ -11,8 +11,9 @@ solving random CS puzzles, and blogging in markdown.
 
 **Features**
 
-- Autocomplete on tab
-- Error checking for all major languages
+- Autocomplete on tab (supertab)
+- Version control integration (gitgutter)
+- Error checking for all major languages (syntastic)
 - Consistent 4-space indenting & tabbing
 - Remembers & starts on previous line number
 - Spacing buffers at top and bottom of page
