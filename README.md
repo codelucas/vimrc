@@ -57,10 +57,14 @@ I will add more changes later but for now the biggest reason
 this was forked was because I want `solarized dark` to be auto
 installed without any hassle. 
 
-Also, i'm not super into any of the fancy plugins, but Amix's 
+Also, I'm not super into any of the fancy plugins, but Amix's 
 basic setup was **amazing**.
 
 This version installs pathogen for the solarized theme.
+
+Since shine1 defaults to a light beige background, it's advised you toggle
+your OSX or Windows terminal background color to be fitting. I had to tweak
+the background to be less intense and change the highlight bg to be not beige.
 
 If anything still is broken, refer to 
 [osx-solarized](https://github.com/tomislav/osx-terminal.app-colors-solarized) or 

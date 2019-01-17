@@ -10,6 +10,10 @@ curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim;
 cp ~/.vim_runtime/plugin/supertab.vim ~/.vim/plugin/.
 cp ~/.vim_runtime/doc/supertab.txt ~/.vim/doc/.
 
+# Copy our custom colorscheme into the colors file to be set
+mkdir -p ~/.vim/colors;
+cp ~/.vim_runtime/colors/shine1.vim ~/.vim/colors/.
+
 cd ~/.vim/bundle
 
 # Download vim-solarized
