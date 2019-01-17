@@ -143,12 +143,13 @@ set foldcolumn=1
 syntax enable 
 
 try
-    colorscheme solarized
+    " shine1 is my personal version of the shine theme
+    colorscheme shine1
 catch
-    echo 'setting colorscheme solarized failed'
+    echo 'setting colorscheme shine1 failed'
 endtry
 
-set background=dark
+set background=light
 
 " Set extra options when running in GUI mode
 if has("gui_running")
